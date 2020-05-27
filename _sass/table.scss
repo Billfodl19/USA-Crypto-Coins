@@ -1,0 +1,154 @@
+.tablescroll {
+    overflow-x: auto;
+    margin: 3rem auto
+  }
+
+ .tablescroll button {
+     background-color: $brand;
+     width: 129px;
+     height: 37px;
+     border: none;
+     color: white;
+ } 
+
+
+
+ .tablescroll button a { 
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+ }
+
+
+
+  
+  table, thead, tbody, td ,tr {
+    display: block;
+  }
+  
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  table {
+  
+    border-collapse: collapse;
+  }
+  
+  tr {
+  
+  }
+  
+  thead tr {
+    background-color: #e8f7ee;
+    color: #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  th, td {
+    padding: 1em .5rem;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  td::before {
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  td:nth-of-type(1)::before {
+    content: 'Company Name: ';
+  }
+  
+  td:nth-of-type(2)::before {
+    content: 'Interest Rate: ';
+  }
+  
+  td:nth-of-type(3)::before {
+    content: 'Loan Duration: ';
+  }
+  
+  td:nth-of-type(4)::before {
+    content: 'Duration: ';
+  }
+  
+  td:nth-of-type(5)::before {
+    content: '';
+  }
+  
+  
+  caption {
+    display: block;
+    font-size: 26px;
+    padding: 0;
+    margin: .5rem;
+    text-align: left;
+    font-weight: 600;
+    color: $black;
+  }
+
+
+
+
+
+
+  
+  @media (min-width: 600px) {
+  
+    caption {
+      display: table-caption;
+      margin: .5rem auto;
+      font-size: 1.5rem;
+      background-color: $brand;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+
+  
+    thead tr {
+      position: static;
+    }
+    thead, tbody {
+      display: table-row-group;
+    }
+    th, td {
+      display: table-cell;
+      text-align: left;
+      width: 50%;
+    }
+    tr {
+      display: table-row;
+    }
+    table {
+      display: table;
+      width: 100%;
+      margin: 1rem auto;
+    }
+  
+    td:nth-of-type(n)::before,
+    td:nth-of-type(n)::after, {
+      content: "";
+    }
+
+
+    tr:nth-child(even) {
+      background-color: #fff;
+    }
+
+    tr{
+      border-left: 6px solid #54cfae;
+    }
+
+    thead tr {
+      background-color: #fff;
+      color: #333;
+    }
+
+  
+  }

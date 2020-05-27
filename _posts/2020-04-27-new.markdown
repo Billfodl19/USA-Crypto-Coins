@@ -1,0 +1,182 @@
+---
+post_title: test page
+seotitle: test page seo
+description: Hello this is a meta description
+layout: post
+permalink: /tester/test
+author: Colin Aulds
+updated: 30th April 2020
+tags: 
+
+pros_cons_table:
+  - pro: pro1
+    con: con1
+  - pro: pro2
+    con: con2
+  - pro: pro3
+  - pro: pro4
+  - pro: Proof of reserves audit
+
+blog_image: /images/blog_pic.jpg
+blog_image_alt: This is the blog image alt
+author_image: /images/colin.png
+author_image_alt: This is the author image alt 
+
+---
+
+* TOC 
+{:toc}
+
+## Hello, this is first h2
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+### This is an h3
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+
+
+<picture>
+  <source media="(min-width: 650px)" srcset="/images/blog_pic.jpg">
+  <source media="(min-width: 465px)" srcset="/images/blog_pic.jpg">
+  <img src="/images/blog_pic.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+
+## Pros & Cons
+
+{% include pros-cons-table.html %}
+
+
+<img src="/images/blog_pic.jpg" class="align_right" align="right" width="150px">
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+
+
+<blockquote>
+<div class="quotes_author_picture">
+<img src="/images/author.png">
+</div>
+<p>
+Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote. Blockquote text.
+</p>
+<hr>?
+<div class="quotes_author">
+<p class="quotes_author_name">Jordan Tuwiner</p>
+<p class="quotes_author_position">Head of SEO</p>
+</div>
+</blockquote>
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+
+
+<div class="tablescroll" aria-labelledby="nutrients" role="region" tabindex="0">
+    <table>
+      <caption>Comparison Table</caption>
+    
+<thead>
+      <tr>
+        <th scope="col">Company Name</th>
+        <th scope="col">Interest Rate</th>
+        <th scope="col">Loan Duration</th>
+        <th scope="col">Duration</th>
+        <th scope="col"></th>
+      </tr>
+</thead>
+    
+ <tbody>
+      <tr>
+        <td>Company A</td>
+        <td>8-14%</td>
+        <td>1-2%</td>
+        <td>3 months</td>
+        <td><button><a href="/" rel="nofollow" target="blank">Sign Up</a></button></td>
+      </tr>
+    
+   <tr>
+        <td>Company B</td>
+        <td>4-7%</td>
+        <td>3-4%</td>
+        <td>6 months</td>
+        <td><button><a href="/" rel="nofollow" target="blank">Sign Up</a></button></td>
+      </tr>
+  
+    
+</tbody>
+    </table>
+    </div> 
+
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+
+<p class="box warning">
+<i class="fas fa-exclamation-triangle"></i>
+<strong>Warning:</strong> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  
+</p>
+<br />
+
+<p class="box info">
+<i class="fas fa-info"></i>
+<strong>Info:</strong> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  
+</p>
+<br />
+
+<p class="box tip">
+<i class="fas fa-comment-medical"></i>
+<strong>Advice:</strong> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  
+</p>
+<br />
+
+## Why do we use it?
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+
+<ul class="quick-info-pros"> 
+	<li>Crypto investors who want a wallet to use with their multisig</li> 
+	<li>Crypto investors who only own a few coins</li>
+    <li>Crypto investors who want an inexpensive wallet</li>  
+</ul>
+
+<ul class="quick-info-cons"> 
+	<li>Crypto investors who want a wallet to use with their multisig</li> 
+	<li>Crypto investors who only own a few coins</li>
+    <li>Crypto investors who want an inexpensive wallet</li>  
+</ul>
+
+<section class="product_cards">
+<div class="product_card">
+<h3>Ledger Nano X</h3>
+<hr>
+<div class="product_description">
+It is a long established fact that a reader will be distracted by the 
+readable content of a page when looking at its layout.
+<img src="/images/trezor.png">
+</div> <!--pro-description--->
+<div class="product_specs">
+<div class="spec">Released<span>2020</span></div> <!--spec--->
+<div class="spec">Price<span>90$</span></div> <!--spec--->
+<div class="spec">Screen<span>Yes</span></div> <!--spec--->
+<div class="spec">Storage<span>2GB</span></div> <!--spec--->
+</div> <!--pro-specs--->
+<button>Buy now!</button>
+</div><!--pro-card--->
+
+
+<div class="product_card">
+<h3>Ledger Nano X</h3>
+<hr>
+<div class="product_description">
+It is a long established fact that a reader will be distracted by the 
+readable content of a page when looking at its layout.
+<img src="/images/trezor.png">
+</div> <!--pro-description--->
+<div class="product_specs">
+<div class="spec">Released<span>2020</span></div> <!--spec--->
+<div class="spec">Price<span>90$</span></div> <!--spec--->
+<div class="spec">Screen<span>Yes</span></div> <!--spec--->
+<div class="spec">Storage<span>2GB</span></div> <!--spec--->
+</div> <!--pro-specs--->
+<button>Buy now !</button>
+</div><!--pro-card--->
+</section>
+

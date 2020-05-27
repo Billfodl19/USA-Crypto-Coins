@@ -1,0 +1,579 @@
+<div class="table-responsive country-compare-table main-layout">
+	  	<ul class="table main-table">
+    		<li class="row main-header">
+                <div class="col-md-12">Popular Exchanges</div>
+            </li>
+            {% if page.table contains 'etoro' %}
+			<li class="row list-item check-location" style="display: none;">
+				<div class="col-md-2">
+					<img class="icon-cover" src="/images/buy/etoro.png">
+				</div>
+				<div class="col-md-7">
+					<div class="product-style">
+						<u class="product-name"><b><a target="_blank" rel="nofollow" href="http://partners.etoro.com/B11515_A87579_TClick.aspx">eToro</a></b></u>
+						<ul style="list-style-type:disc;">
+							<li>Start trading fast; high limits</li>
+							<li>Easy way for newcomers to get bitcoins</li>
+							<li>Your capital is at risk</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<a target="_blank" rel="nofollow" class="button-cover button" href="http://partners.etoro.com/B11515_A87579_TClick.aspx">{{ lang.converthwbuynow }}</a>
+				</div>
+            </li>
+            {% endif %}
+            
+			{% if page.table contains 'coinberry' %}
+    		<!-------- this tag shows coinberry. only shows if canada IP. for use on global pages  -->
+    		<li class="row list-item" style="display: none;">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/coinberry.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://coinberry.com/?utm_source=affiliate&utm_campaign=KZQ6jnFF18G8Rx7B5UGn">Coinberry</a></b></u>
+	    				<ul style="list-style-type:disc;">
+	    					<li>Crypto exchange based in Canada</li>
+	    					<li>Very high buy and sell limits</li>
+	    					<li>Supports credit & debit card, Interac, wire</li>
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://coinberry.com/?utm_source=affiliate&utm_campaign=KZQ6jnFF18G8Rx7B5UGn">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+    		{% endif %}
+    		{% if page.table contains 'bitbuy' %}
+    		<!-------- this tag show bitbuy. no location check  -->
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/bitbuy1.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://buybitcoinww.co/Bitbuy_ca">Bitbuy</a></b></u>
+	    				<ul style="list-style-type:disc;">
+	    					<li>Fast way to buy bitcoins</li>
+	    					<li>Very high buy and sell limits</li>
+	    					<li>Can handle large buys through OTC desk</li>
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://buybitcoinww.co/Bitbuy_ca">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+    		{% endif %}
+    		{% if page.table contains 'coinbase' %}
+    		<!-------- this is only shown if table contains coinbase, no location check -->
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/coinbase.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://buybitcoinww.co/Coinbase_Cryptocurrency">Coinbase</a></b></u>
+	    				<ul style="list-style-type:disc;">
+		    				{% if page.lang == 'en' %}
+	    					<li>High liquidity and buying limits</li>
+	    					<li>Easy way for newcomers to get bitcoins</li>
+	    					<li>"Instant Buy" option available with debit card</li>
+	    					{% elsif page.lang == 'ru' %}
+	    					<li>Хорошая ликвидность и лимиты покупки</li>
+	    					<li>Простой способ для новичков обзавестись биткоинами</li>
+                            <li>Есть опция "Мгновенная покупка" пластиковой картой</li>
+                            {% elsif page.lang == 'de' %}
+                            <li>Hohe Liquidität und Kauflimits</li>
+                            <li>Einfache Möglichkeit für Anfänger, um Bitcoins zu bekommen</li>
+                            <li>Option “Sofortkauf” mit Debitkarte verfügbar</li>
+                            {% elsif page.lang == 'el' %}
+                            <li>Υψηλή όρια ρευστότητας και αγορών</li>
+                            <li>Εύκολος τρόπος απόκτησης bitcoins για αρχάριους</li>
+                            <li>Διαθέσιμη επιλογή "Άμεσης Αγοράς" με πιστωτική κάρτα</li>
+                            {% elsif page.lang == 'it' %}
+                            <li>Alta liquidità e limiti di acquisto</li>
+                            <li>Metodo facile per i principianti per ottenere Bitcoin</li>
+                            <li>Opzione "Acquisto istantaneo" disponibile con carta di debito</li>
+	    					{% endif %}
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://buybitcoinww.co/Coinbase_Cryptocurrency">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+    		{% endif %}
+			
+    		{% if page.table contains 'river' %}
+    		<!-------- this tag shows river. no location check  -->
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/river.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://river.com/?a=HAXR4IC7">River</a></b></u>
+	    				<ul style="list-style-type:disc;">
+	    					<li>Bitcoin exchange based in USA</li>
+	    					<li>Very high buy and sell limits</li>
+	    					<li>Clean, professional interface</li>
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://river.com/?a=HAXR4IC7">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+            {% endif %}
+            
+    		{% if page.table contains 'coinmama' %}
+    		<!-------- this tag show coinmama. no location check  -->
+    		<li class="row list-item {% if page.table contains 'coinjarnotcountryuk' and page.table contains 'irnzau' and page.table contains 'coinspotnotcountry' %}hidden-if-3-au{% endif %}">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/coinmama.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://buybitcoinww.co/CoinMama_Crypto">Coinmama</a></b></u>
+		    			<ul style="list-style-type:disc;">
+			    			
+			    			{% if page.lang == 'en' %}
+		    				<li>Works in almost all countries</li>
+		    				<li>Highest limits for buying bitcoins with a credit card</li>
+		    				<li>Reliable and trusted broker</li>
+		    				{% elsif page.lang == 'ru' %}
+	    					<li>Работает почти во всех странах</li>
+	    					<li>Самые высокие лимиты на покупку биткоинов пластиковой картой</li>
+                            <li>Надежный и проверенный брокер</li>
+                            {% elsif page.lang == 'el' %}
+                            <li>Υποστηρίζεται σχεδόν σε όλες τις χώρες</li>
+                            <li>Τα πιο υψηλά όρια αγορών bitcoins με πιστωτική κάρτα</li>
+                            <li>Αξιόπιστος και έμπιστος χρηματομεσίτης</li>
+                            {% elsif page.lang == 'it' %}
+                            <li>Funziona in quasi tutti i paesi</li>
+                            <li>Limiti più alti per l'acquisto di Bitcoin con una carta di credito</li>
+                            <li>Broker affidabile</li>
+	    					{% endif %}
+		    			</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<div style="">
+    					<a target="_blank" rel="nofollow" class="button-cover button" href="https://buybitcoinww.co/CoinMama_Crypto">{{ lang.converthwbuynow }}</a>
+    				</div>
+    			</div>
+    		</li>
+    		{% endif %}
+    		
+    		{% if page.table contains 'etoroglobal' %}
+    		<!-------- this tag shows etoro on credit card page, but only in countries coinbase does not support. locations are checked -->
+			<li class="row list-item display-etoroglobalccww" style="display: none;">
+				<div class="col-md-2">
+					<img class="icon-cover" src="/images/buy/etoro.png">
+				</div>
+				<div class="col-md-7">
+					<div class="product-style">
+						<u class="product-name"><b><a target="_blank" rel="nofollow" href="http://partners.etoro.com/B13059_A75029_TClick.aspx">eToro</a></b></u>
+						<ul style="list-style-type:disc;">
+							<li>Supports Bitcoin, Ethereum & 15 other coins</li>
+							<li>Start trading fast; high limits</li>
+							<li>Your capital is at risk.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<a target="_blank" rel="nofollow" class="button-cover button" href="http://partners.etoro.com/B13059_A75029_TClick.aspx">{{ lang.converthwbuynow }}</a>
+				</div>
+				<div class="col-md-12">
+					<p class="etoro-disclaimer">{{ lang.etoro }}</p>
+				</div>
+			</li>
+			{% endif %}
+			
+			{% if page.table contains 'coinjarau' %}
+    		<!-------- this tag includes coinjar AU on any page. no location check  -->
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/coinjar.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://www.coinjar.com/_ref/jtuwiner?utm_source=bbw&utm_medium=affiliate-bbw">CoinJar</a></b></u>
+	    				<ul style="list-style-type:disc;">
+	    					<li>Low fees with instant AUD deposits</li>
+	    					<li>EFT, POLi, Osko & SWIFT</li>
+	    					<li>Simple interface, easy-to-use</li>
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://www.coinjar.com/_ref/jtuwiner?utm_source=bbw&utm_medium=affiliate-bbw">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+			{% endif %}
+			
+			{% if page.table contains 'coinjaruk' %}
+    		<!-------- this tag includes coinjar UK on any page. no location check  -->
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/coinjar.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://www.coinjar.com/_ref/jtuwiner?utm_source=bbw&utm_medium=affiliate-bbw">CoinJar</a></b></u>
+	    				<ul style="list-style-type:disc;">
+	    					<li>Low fees with instant AUD deposits</li>
+	    					<li>EFT, POLi, Osko & SWIFT</li>
+	    					<li>Simple interface, easy-to-use</li>
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://www.coinjar.com/_ref/jtuwiner?utm_source=bbw&utm_medium=affiliate-bbw">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+			{% endif %}
+			
+    		{% if page.table contains 'cbpro' %}
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/coinbaseexchange.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://buybitcoinww.co/Coinbase_Cryptocurrency">Coinbase Pro</a></b></u>
+	    				<ul style="list-style-type:disc;">
+	    					
+	    					{% if page.lang == 'en' %}
+	    					<li>Some of the lowest fees available for US and EU customers</li>
+	    					<li>Possible to buy bitcoins for 0% fees</li>
+	    					<li>Run by Coinbase</li>
+	    					{% elsif page.lang == 'ru' %}
+	    					<li>Одни из самых низких комиссий для клиентов из США и ЕС</li>
+	    					<li>Возможность купить биткоины с комиссией 0%</li>
+                            <li>Принадлежит Coinbase</li>
+                            {% elsif page.lang == 'de' %}
+                            <li>Mitunter die niedrigsten Gebühren für US- und EU-Kunden</li>
+                            <li>Möglichkeit, um Bitcoins für 0% Gebühren zu kaufen</li>
+                            <li>Betrieben von Coinbase</li>
+	    					{% endif %}
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://buybitcoinww.co/Coinbase_Cryptocurrency">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+    		{% endif %}
+    		
+    		{% if page.table contains 'kraken' %}
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/kraken.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://r.kraken.com/4N9Ln">Kraken</a></b></u>
+                        <ul style="list-style-type:disc;">
+                            
+                            {% if page.lang == 'en' %}
+	    					<li>Great liquidity and low fees</li>
+	    					<li>Supports most countries</li>
+                            <li>Trusted exchange, started in 2011</li>
+                            {% elsif page.lang == 'de' %}
+                            <li>Großartige Liquidität und niedrige Gebühren</li>
+                            <li>Unterstützt die meisten Länder</li>
+                            <li>Vertrauenswürdige Börse, gestartet in 2011</li>
+                            {% elsif page.lang == 'el' %}
+                            <li>Σπουδαία ρευστότητα και χαμηλές προμήθειες</li>
+                            <li>Υποστηρίζεται στις περισσότερες χώρες</li>
+                            <li>Αξιόπιστο ανταλλακτήριο, από το 2011</li>
+                            {% elsif page.lang == 'it' %}
+                            <li>Ottima liquidità e commissioni basse</li>
+                            <li>Supporta la maggior parte dei paesi</li>
+							<li>Scambi sicuri a partire dal 2011</li>
+							{% elsif page.lang == 'ru' %}
+                            <li>Высокая ликвидность и низкие комиссии</li>
+                            <li>Поддержка большинства стран</li>
+                            <li>Проверенная биржа, которая работает с 2011 года</li>
+                            {% endif %}
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://r.kraken.com/4N9Ln">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+    		{% endif %}
+    		
+    		{% if page.table contains 'luno' %}
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/images/buy/luno.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://luno.fl9beu.net/kqNj3">Luno</a></b></u>
+	    				<ul style="list-style-type:disc;">
+                            
+                            {% if page.lang == 'en' %}
+                            <li>Good choice for Europe, easy to use</li>
+	    					<li>SEPA & credit card supported</li>
+                            <li>Does NOT support the United States</li>
+                            {% elsif page.lang == 'el' %}
+                            <li>Καλή επιλογή για Ευρώπη, εύκολο στη χρήση</li>
+                            <li>Υποστηρίζει SEPA & πιστωτική κάρτα</li>
+                            <li>ΔΕΝ υποστηρίζεται στις Η.Π.Α.</li>
+                            {% elsif page.lang == 'it' %}
+                            <li>Scelta valida per l'Europa, facile da usare</li>
+                            <li>SEPA e carta di credito supportati</li>
+                            <li>NON supporta gli Stati Uniti</li>
+                            {% endif %}
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://luno.fl9beu.net/kqNj3">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+            {% endif %}
+            
+    		{% if page.table contains 'cex' %}
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/img/exchanges/cexio.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://buybitcoinww.co/CEX__IO">CEX.io</a></b></u>
+	    				<ul style="list-style-type:disc;">
+	    					<li>Support for many countries and regions</li>
+	    					<li>SEPA & credit card supported</li>
+	    					<li>Trusted exchange around since 2013</li>
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://buybitcoinww.co/CEX__IO">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+            {% endif %}
+            
+    		{% if page.table contains 'local' %}
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/img/exchanges/localbitcoins.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a href="/exchanges/localbitcoins/">LocalBitcoins</a></b></u>
+						<ul style="list-style-type:disc;">
+							{% if page.lang == 'en' %}
+		    				<li>Support for nearly every country</li>
+	    					<li>Wide range of payment methods accepted</li>
+	    					<li>Trusted exchange around since 2012</li>
+		    				{% elsif page.lang == 'ru' %}
+                            <li>Работает почти во всех странах</li>
+                            <li>Широкий выбор способов оплаты</li>
+                            <li>Популярная биржа с 2012 года</li>
+	    					{% endif %} 
+	    					
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="/exchanges/localbitcoins/">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+    		{% endif %}
+    		
+    		{% if page.table contains 'panda' %}
+    		<li class="row list-item">
+    			<div class="col-md-2">
+    				<img class="icon-cover" src="/img/exchanges/bitpanda.png">
+    			</div>
+    			<div class="col-md-7">
+    				<div class="product-style">
+    					<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://buybitcoinww.co/bitpanda">Bitpanda</a></b></u>
+	    				<ul style="list-style-type:disc;">
+		    				
+		    				{% if page.lang == 'en' %}
+	    					<li>Best for Germany, Netherlands, Italy, France & rest of Europe</li>
+	    					<li>Does NOT support USA</li>
+	    					<li>Trusted exchange</li>
+	    					{% endif %}
+	    					
+	    				</ul>
+    				</div>
+    			</div>
+    			<div class="col-md-3">
+    				<a target="_blank" rel="nofollow" class="button-cover button" href="https://buybitcoinww.co/bitpanda">{{ lang.converthwbuynow }}</a>
+    			</div>
+    		</li>
+            {% endif %}
+            
+    		{% if page.table contains 'naira' %}
+				<li class="row list-item">
+					<div class="col-md-2">
+						<img class="icon-cover" src="/img/exchanges/nairaex.png">
+					</div>
+					<div class="col-md-7">
+						<div class="product-style">
+							<u class="product-name"><b><a target="_blank" rel="nofollow" href="https://nairaex.com/">NairaEx</a></b></u>
+							<ul style="list-style-type:disc;">
+								<li>Bitcoin exchange based in Nigeria</li>
+								<li>Clear & easy-to-use interface</li>
+								<li>Trusted exchange</li>	
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<a target="_blank" rel="nofollow" class="button-cover button" href="https://nairaex.com/">{{ lang.converthwbuynow }}</a>
+					</div>
+				</li>
+				{% endif %}
+    		
+			{% if page.table contains 'etoro' or page.table contains 'lunoccww' or page.table contains 'pandaccww' or page.table contains 'etoroglobal' or page.table contains 'coinbasenotcountry' or page.table contains 'coinbasecc' or page.table contains 'etoroglobalccww' or page.table contains 'coinberrynotcountry' or page.table contains 'bitbuynotcountry' or page.table contains 'coinjarnotcountry' or page.table contains 'irnzau' %}
+				<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+				<script>
+					var access_key = '663103ff92a06aa6fb2be84835ba5e30';
+					
+					function checkCountryLocation() {
+						$.ajax({
+							url: 'https://api.ipstack.com/check?access_key=' + access_key,   
+							dataType: 'jsonp',
+							success: function(json) {
+								localStorage.setItem('location', json.country_code);
+								if(json.country_code == 'US') {
+									showCountryTable();
+								}
+								if(json.country_code == 'MY' || json.country_code == 'SG' || json.country_code == 'ID' || json.country_code == 'ZA' || json.country_code == 'ZM' || json.country_code == 'UG' || json.country_code == 'NG') {
+									$('.sg-my-id-za-ng').show();
+									$('.sg-my-id-za-ng').css('display', 'flex');
+								}
+								if(json.country_code == 'US' || json.country_code == 'NG' || json.country_code == 'IN' || json.country_code == 'CA' || json.country_code == 'AU' || json.country_code == 'PH' || json.country_code == 'PK' || json.country_code == 'ZA' || json.country_code == 'TH' || json.country_code == 'ID' || json.country_code == 'GH' || json.country_code == 'IL' || json.country_code == 'BR' || json.country_code == 'MY' || json.country_code == 'NZ')  {
+									$('.hidden-for-us-ng-id-ca-au').hide();
+								}
+
+								if(json.country_code == 'US' || json.country_code == 'CA' || json.country_code == 'IL' || json.country_code == 'JP' || json.country_code == 'TR' || json.country_code == 'IR' || json.country_code == 'SY' || json.country_code == 'BE' || json.country_code == 'AF' || json.country_code == 'AL' || json.country_code == 'BY' || json.country_code == 'BA' || json.country_code == 'BW' || json.country_code == 'BN' || json.country_code == 'TD' || json.country_code == 'CD' || json.country_code == 'CG' || json.country_code == 'CU' || json.country_code == 'ET' || json.country_code == 'GY' || json.country_code == 'GN' || json.country_code == 'GW' || json.country_code == 'LA' || json.country_code == 'LY' || json.country_code == 'ML' || json.country_code == 'MM' || json.country_code == 'NA' || json.country_code == 'NI' || json.country_code == 'KP' || json.country_code == 'PW' || json.country_code == 'WS' || json.country_code == 'RS' || json.country_code == 'SO' || json.country_code == 'SD' || json.country_code == 'UG' || json.country_code == 'YE' || json.country_code == 'AU') {
+									hideCountryTable();
+								}
+
+								if(json.country_code == 'GH' || json.country_code == 'NG' || json.country_code == 'ZA' || json.country_code == 'IN' || json.country_code == 'IL' || json.country_code == 'AE' || json.country_code == 'TH' || json.country_code == 'PI' || json.country_code == 'PK' || json.country_code == 'RU' || json.country_code == 'TR' || json.country_code == 'KE' || json.country_code == 'UA' || json.country_code == 'EG' || json.country_code == 'BD' || json.country_code == 'IR' || json.country_code == 'ID' || json.country_code == 'AR' || json.country_code == 'CM' || json.country_code == 'SA' || json.country_code == 'MA' || json.country_code == 'VN' || json.country_code == 'JP' || json.country_code == 'DO' || json.country_code == 'VE' || json.country_code == 'LK' || json.country_code == 'LB' || json.country_code == 'CN' || json.country_code == 'DZ' || json.country_code == 'EC' || json.country_code == 'TN' || json.country_code == 'MM' || json.country_code == 'QA' || json.country_code == 'KW' || json.country_code == 'IQ' || json.country_code == 'JO' || json.country_code == 'NP' || json.country_code == 'AZ' || json.country_code == 'LA' || json.country_code == 'ET' || json.country_code == 'MN' || json.country_code == 'BW' || json.country_code == 'BH' || json.country_code == 'NA' || json.country_code == 'TZ' || json.country_code == 'CI' || json.country_code == 'ZM' || json.country_code == 'UG' || json.country_code == 'BS' || json.country_code == 'GT' || json.country_code == 'MZ' || json.country_code == 'CW' || json.country_code == 'LC' || json.country_code == 'AO' || json.country_code == 'AW' || json.country_code == 'SV' || json.country_code == 'BN' || json.country_code == 'ME' || json.country_code == 'MU' || json.country_code == 'BB' || json.country_code == 'HT' || json.country_code == 'JM' || json.country_code == 'MW' || json.country_code == 'CR' || json.country_code == 'CD' || json.country_code == 'CG' || json.country_code == 'TW' || json.country_code == 'LA' || json.country_code == 'NI' || json.country_code == 'SN' || json.country_code == 'LR' || json.country_code == 'AF' || json.country_code == 'UZ' || json.country_code == 'MY' || json.country_code == 'CA') {
+									hideCoinbase();
+									showEtoroglobalccww();
+								}
+
+								if(json.country_code == 'CA') {
+									showOnlyCanada();
+								}
+								
+								if(json.country_code == 'AU') {
+									showOnlyAustralia();
+									{% if page.table contains 'coinjarnotcountryau' and page.table contains 'irnzau' and page.table contains 'coinspotnotcountry' %}
+						$('.hidden-if-3-au').hide();
+						{% elsif page.table contains 'coinjarnotcountryau' and page.table contains 'irnzau' and page.table contains 'coinmama' %}
+						$('.hidden-if-2-au').hide();
+						{% endif %}
+								}
+					
+						if(json.country_code == 'AU' || json.country_code == 'NZ') {
+								showOnlyNzAu();
+						}
+					
+								
+							},
+							error: function(e) {
+								console.log(e);
+							}
+						});
+					}
+
+					function showCountryTable() {
+						$('.check-location').show();
+					}
+
+					function hideCoinbase() {
+						$('.hide-coinbase-from-ghana-nigeria').hide();
+					}
+
+					function showEtoroglobalccww() {
+						$('.display-etoroglobalccww').show();
+					}
+
+					function showOnlyCanada() {
+						$('.only-shows-canada').show();
+					}
+					
+										
+					function showOnlyAustralia() {
+						$('.only-shows-australia').show();
+					}
+					
+					function showOnlyNzAu() {
+						$('.only-show-au-nz').show();
+					}
+
+					if(localStorage.getItem('location') === null) {
+						checkCountryLocation();
+					} 
+					if(localStorage.getItem('location') == 'US') {
+						showCountryTable();
+					} 
+					if(localStorage.getItem('location') == 'MY' || localStorage.getItem('location') == 'SG' || localStorage.getItem('location') == 'ID' || localStorage.getItem('location') == 'ZA' || localStorage.getItem('location') == 'ZM' || localStorage.getItem('location') == 'UG' || localStorage.getItem('location') == 'NG') {
+						$('.sg-my-id-za-ng').show();
+						$('.sg-my-id-za-ng').css('display', 'flex');
+					}
+					if(localStorage.getItem('location') == 'US' || localStorage.getItem('location') == 'NG' || localStorage.getItem('location') == 'IN' || localStorage.getItem('location') == 'CA' || localStorage.getItem('location') == 'AU' || localStorage.getItem('location') == 'PH' || localStorage.getItem('location') == 'PK' || localStorage.getItem('location') == 'ZA' || localStorage.getItem('location') == 'TH' || localStorage.getItem('location') == 'ID' || localStorage.getItem('location') == 'GH' || localStorage.getItem('location') == 'IL' || localStorage.getItem('location') == 'BR' || localStorage.getItem('location') == 'MY') {
+						$('.hidden-for-us-ng-id-ca-au').hide();
+					}
+
+					function hideCountryTable() {
+						$('.get-location').hide();
+					}
+
+					if(localStorage.getItem('location') == 'US' || localStorage.getItem('location') == 'CA' || localStorage.getItem('location') == 'IL' || localStorage.getItem('location') == 'JP' || localStorage.getItem('location') == 'TR' || localStorage.getItem('location') == 'IR' || localStorage.getItem('location') == 'SY' || localStorage.getItem('location') == 'BE' || localStorage.getItem('location') == 'AF' || localStorage.getItem('location') == 'AL' || localStorage.getItem('location') == 'BY' || localStorage.getItem('location') == 'BA' || localStorage.getItem('location') == 'BW' || localStorage.getItem('location') == 'BN' || localStorage.getItem('location') == 'TD' || localStorage.getItem('location') == 'CD' || localStorage.getItem('location') == 'CG' || localStorage.getItem('location') == 'CU' || localStorage.getItem('location') == 'ET' || localStorage.getItem('location') == 'GY' || localStorage.getItem('location') == 'GN' || localStorage.getItem('location') == 'GW' || localStorage.getItem('location') == 'LA' || localStorage.getItem('location') == 'LY' || localStorage.getItem('location') == 'ML' || localStorage.getItem('location') == 'MM' || localStorage.getItem('location') == 'NA' || localStorage.getItem('location') == 'NI' || localStorage.getItem('location') == 'KP' || localStorage.getItem('location') == 'PW' || localStorage.getItem('location') == 'WS' || localStorage.getItem('location') == 'RS' || localStorage.getItem('location') == 'SO' || localStorage.getItem('location') == 'SD' || localStorage.getItem('location') == 'UG' || localStorage.getItem('location') == 'YE' || localStorage.getItem('location') == 'AU') {
+						hideCountryTable();
+					}
+
+					if(localStorage.getItem('location') == 'GH' || localStorage.getItem('location') == 'NG' || localStorage.getItem('location') == 'ZA' || localStorage.getItem('location') == 'IN' || localStorage.getItem('location') == 'IL' || localStorage.getItem('location') == 'AE' || localStorage.getItem('location') == 'TH' || localStorage.getItem('location') == 'PI' || localStorage.getItem('location') == 'PK' || localStorage.getItem('location') == 'RU' || localStorage.getItem('location') == 'TR' || localStorage.getItem('location') == 'KE' || localStorage.getItem('location') == 'UA' || localStorage.getItem('location') == 'EG' || localStorage.getItem('location') == 'BD' || localStorage.getItem('location') == 'IR' || localStorage.getItem('location') == 'ID' || localStorage.getItem('location') == 'AR' || localStorage.getItem('location') == 'CM' || localStorage.getItem('location') == 'SA' || localStorage.getItem('location') == 'MA' || localStorage.getItem('location') == 'VN' || localStorage.getItem('location') == 'JP' || localStorage.getItem('location') == 'DO' || localStorage.getItem('location') == 'VE' || localStorage.getItem('location') == 'LK' || localStorage.getItem('location') == 'LB' || localStorage.getItem('location') == 'CN' || localStorage.getItem('location') == 'DZ' || localStorage.getItem('location') == 'EC' || localStorage.getItem('location') == 'TN' || localStorage.getItem('location') == 'MM' || localStorage.getItem('location') == 'QA' || localStorage.getItem('location') == 'KW' || localStorage.getItem('location') == 'IQ' || localStorage.getItem('location') == 'JO' || localStorage.getItem('location') == 'NP' || localStorage.getItem('location') == 'AZ' || localStorage.getItem('location') == 'LA' || localStorage.getItem('location') == 'ET' || localStorage.getItem('location') == 'MN' || localStorage.getItem('location') == 'BW' || localStorage.getItem('location') == 'BH' || localStorage.getItem('location') == 'NA' || localStorage.getItem('location') == 'TZ' || localStorage.getItem('location') == 'CI' || localStorage.getItem('location') == 'ZM' || localStorage.getItem('location') == 'UG' || localStorage.getItem('location') == 'BS' || localStorage.getItem('location') == 'GT' || localStorage.getItem('location') == 'MZ' || localStorage.getItem('location') == 'CW' || localStorage.getItem('location') == 'LC' || localStorage.getItem('location') == 'AO' || localStorage.getItem('location') == 'AW' || localStorage.getItem('location') == 'SV' || localStorage.getItem('location') == 'BN' || localStorage.getItem('location') == 'ME' || localStorage.getItem('location') == 'MU' || localStorage.getItem('location') == 'BB' || localStorage.getItem('location') == 'HT' || localStorage.getItem('location') == 'JM' || localStorage.getItem('location') == 'MW' || localStorage.getItem('location') == 'CR' || localStorage.getItem('location') == 'CD' || localStorage.getItem('location') == 'CG' || localStorage.getItem('location') == 'TW' || localStorage.getItem('location') == 'LA' || localStorage.getItem('location') == 'NI' || localStorage.getItem('location') == 'SN' || localStorage.getItem('location') == 'LR' || localStorage.getItem('location') == 'AF' || localStorage.getItem('location') == 'UZ' || localStorage.getItem('location') == 'CA' || localStorage.getItem('location') == 'NZ') {
+						hideCoinbase();
+						showEtoroglobalccww();
+					}
+
+					if(localStorage.getItem('location') == 'CA') {
+						showOnlyCanada();
+					}
+					
+					
+					if(localStorage.getItem('location') == 'AU') {
+						showOnlyAustralia();
+						{% if page.table contains 'coinjarnotcountryau' and page.table contains 'irnzau' and page.table contains 'coinspotnotcountry' %}
+						$('.hidden-if-3-au').hide();
+						{% elsif page.table contains 'coinjarnotcountryau' and page.table contains 'irnzau' and page.table contains 'coinmama' %}
+						$('.hidden-if-2-au').hide();
+						{% endif %}
+					}
+	
+					if(localStorage.getItem('location') == 'AU' || localStorage.getItem('location') == 'NZ') {
+						showOnlyNzAu();
+					}
+					
+				</script>
+			{% endif %}
+	    </ul>
+	</div>
+
+{% if page.fixtable %}
+
+<style>
+.container .table-responsive {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+</style>
+
+{% endif %}

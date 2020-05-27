@@ -1,0 +1,115 @@
+---
+---
+
+{% include pricecount.html %}
+{% include head.html %}
+{% include navbar.html %}
+
+<main>
+
+  {% include popup.html %}
+
+<article class="post_wrapper">
+
+    <ul class="breadcrumb watchmy2">
+      {% for crumb in site.data.breadcrumbs %}
+        {% assign url_prefix = page.url | slice: 0, crumb.url.size %}
+        {% if url_prefix == crumb.url and page.url != crumb.url %}
+          <li class="breadcrumb-item">
+            <a href="{{ crumb.url | prepend: site.baseurl }}">
+              {{ crumb.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      <li class="breadcrumb-item active">
+        <a  href="{{ page.url | prepend: site.baseurl }}">
+          {{ page.title }}
+        </a>
+      </li>
+    </ul>
+
+
+
+    <!--SVG LINE-->
+    <svg width="94" height="4" viewBox="0 0 94 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28 0H0V4H28V0Z" fill="#FFC02F"/>
+      <path d="M50 0H38V4H50V0Z" fill="#FFC02F"/>
+      <path d="M72 0H60V4H72V0Z" fill="#FFC02F"/>
+      <path d="M94 0H82V4H94V0Z" fill="#FFC02F"/>
+    </svg>
+
+
+     <h1>{{ page.post_title }}</h1>
+
+     <hr>
+
+     <div class="meta">
+       <div class="author">
+        <i class="fas fa-user"></i> <span itemprop="author">Author:</span> {{ page.author }}
+       </div>
+
+
+       <span>
+        {% for tag in page.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <i class="fas fa-tags"></i> Tags: <a href="/tag/{{ tag_name }}">{{ tag_name }}&nbsp;</a>
+        {% endfor %}
+      </span>
+
+
+      
+
+       <div class="date">
+        <i class="far fa-clock"></i> <span>Updated:</span> {{ page.updated }}
+      </div>
+     </div> <!---meta-->
+
+     {% if page.blog_image %}
+     <div class="post_image">
+       <img src="{{ page.blog_image }}" alt="{{ page.blog_image }}">
+       {% endif %}
+
+       {% if page.author_image %}
+     
+       <div class="author_image">
+         <img src="{{ page.author_image }}" alt="{{ page.author_image_alt }}">
+       </div> <!--author image-->
+       {% endif %}
+     </div> <!--post image-->
+
+
+      {{ content }}
+
+
+      <hr>
+
+
+      <div class="share">
+        <h3 class="watch">Share this article</h3>
+        <div class="share_icons">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=" target="blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="blank"><i class="fab fa-twitter"></i></a>
+        </div> <!--share icons-->
+      </div>
+    
+</article>
+
+</main>
+
+
+{% if page.author == 'Scott Wehman' %}
+    {% include scott.html %}
+{% elsif page.author == 'Bryan Aulds' %}
+    {% include bryan.html %}
+{% elsif page.author == 'Chris Palasz' %}
+    {% include chris.html %}
+{% elsif page.author == 'Vlad Costea' %}
+    {% include vlad.html %}
+{% elsif page.author == 'Rafael Yakobi' %}
+    {% include rafael.html %}
+{% else %}
+    {% include colin.html %}
+{% endif %}
+
+{% include footer.html %}

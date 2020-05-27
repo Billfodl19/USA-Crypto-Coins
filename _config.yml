@@ -1,0 +1,12 @@
+title: Billfodl
+author:
+  name: Billfodl
+  email: support@billfodl.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Billfodl's Marine Grade Stainless Steel gives you peace of mind when protecting your crypto against fire and flood.
+
+baseurl: "" 
+markdown: kramdown
+
+kramdown:
+  toc_levels: "2"

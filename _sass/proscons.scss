@@ -1,0 +1,177 @@
+.proscons ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    line-height: 28px;
+    margin: 0;
+}
+.proscons h3 { 
+    margin: .5rem 0;
+    box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.pro_h3 {
+    background-color: #11d1ae;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.con_h3 {
+    background-color: #f0471e;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+.fa-check{
+    color: $lightgreen;
+    font-size: 1.2em;
+    padding-right: 2px;
+}
+.fa-times{
+    color: #f0471d;
+    font-size: 1.2em;
+    padding-right: 2px;
+}
+
+.proscons ul li{
+    padding: 1rem 1.5rem;
+    min-height: 138px;
+    font-size: 18px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.proscons ul li:nth-child(even) {
+    background-color: #ececec;
+}
+
+
+
+
+
+@media only screen and (min-width: 850px) { 
+
+    .proscons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2em auto;
+        grid-gap: 25px;
+        width: 700px;
+    }
+
+
+}
+
+
+
+
+
+.pro_cons_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.pro_cons_row > div {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+// PROS AND CONS DESKTOP
+
+.pad {
+padding-left: 40px !important;
+} 
+
+.proandcon {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .proandcon li {
+    flex-grow:1;
+    list-style: none;  
+    background-color: #fafafa;
+    margin: 0px 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .proandcon li:nth-child(1) {
+    max-width: 50%;
+  }
+  
+  .proandcon li:nth-child(2) {
+    max-width: 50%;
+  }
+  
+  .proandcon > h3 {
+    width: 50%;
+    text-align: center;
+    margin: .5rem 10px;
+    box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  .proandcon_even {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .proandcon_even li {
+    flex-grow:1;
+    list-style: none;  
+    background-color: transparent;
+    margin: 0px 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .proandcon_even li:nth-child(1) {
+    max-width: 50%;
+  }
+  
+  .proandcon_even li:nth-child(2) {
+    max-width: 50%;
+  }
+
+  .proscons_desktop {
+    display: block;
+  }
+
+  .proscons.mobile {
+    display: none;
+}
+
+
+
+
+  @media only screen and (max-width: 800px) {     
+
+    .proscons_desktop {
+        display: none;
+    }
+
+    .proscons.mobile {
+        display: block;
+    }
+
+  }

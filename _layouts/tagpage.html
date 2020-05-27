@@ -1,0 +1,80 @@
+---
+---
+
+
+{% include head.html %}
+{% include navbar.html %}
+
+<main>
+
+<article class="post_wrapper">
+
+    <ul class="breadcrumb">
+      {% for crumb in site.data.breadcrumbs %}
+        {% assign url_prefix = page.url | slice: 0, crumb.url.size %}
+        {% if url_prefix == crumb.url and page.url != crumb.url %}
+          <li class="breadcrumb-item">
+            <a href="{{ crumb.url | prepend: site.baseurl }}">
+              {{ crumb.title }}
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      <li class="breadcrumb-item active">
+        <a  href="{{ page.url | prepend: site.baseurl }}">
+          {{ page.title }}
+        </a>
+      </li>
+    </ul>
+
+
+
+    <!--SVG LINE-->
+    <svg width="94" height="4" viewBox="0 0 94 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M28 0H0V4H28V0Z" fill="#FFC02F"/>
+      <path d="M50 0H38V4H50V0Z" fill="#FFC02F"/>
+      <path d="M72 0H60V4H72V0Z" fill="#FFC02F"/>
+      <path d="M94 0H82V4H94V0Z" fill="#FFC02F"/>
+    </svg>
+
+
+     <h1>{{ page.post_title }}</h1>
+
+     <hr>
+
+
+
+     <div class="post">
+      <h1>Tag: {{ page.tag }}</h1>
+      <article class="tag_ul">
+      {% for post in site.tags[page.tag] %}
+
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+
+        <p>Date: ({{ post.date | date_to_string }})</p>
+
+        <img src="{{ post.blog_image }}" alt="{{ post.blog_image }}">
+        <p>{{ post.description }}</p>
+
+        <a href="{{ post.url }}">Read More</a>
+        
+      {% endfor %}
+      </article>
+      </div>
+     
+
+
+    
+    
+</article>
+
+</main>
+
+
+
+
+
+
+
+{% include footer.html %}
+

@@ -1,0 +1,53 @@
+
+<div class="proscons mobile">
+ 
+<div class="pros">
+
+<h3 class="pro_h3"><i class="fas fa-thumbs-up"></i> Pros</h3>
+
+<ul>
+{%- for item in page.pros_cons_table -%}
+    {%- if item.pro and item.pro.size > 0 -%}
+        <li><i class="fas fa-check"></i> {{ item.pro }}</li>
+    {%- endif -%}
+{%- endfor -%}
+</ul>
+</div>
+    
+    
+<div class="cons">
+<h3 class="con_h3"><i class="fas fa-thumbs-down"></i> Cons</h3>
+
+<ul>
+{%- for item in page.pros_cons_table -%}
+    {%- if item.con and item.con.size > 0 -%}
+        <li><i class="fas fa-times"></i> {{ item.con }}</li>
+    {%- endif -%}
+{%- endfor -%}
+</ul>
+</div>
+    
+</div>
+
+<div class="proscons_desktop">
+
+<div class="proandcon">
+    <h3 class="pro_h3"><i class="fas fa-thumbs-up"></i> Pros</h3>
+    <h3 class="con_h3"><i class="fas fa-thumbs-down"></i> Cons</h3>
+</div>
+
+{%- for item in page.pros_cons_table -%}
+    {%- assign the_modulo = forloop.index | modulo: 2 -%}
+    <div class="proandcon{%- if the_modulo == 1 -%}_even{%- endif -%}">
+        {%- if item.pro and item.pro.size > 0 -%}
+            <li><i class="fas fa-check"></i> {{ item.pro }}</li>
+        {%- endif -%}
+        {%- if item.con and item.con.size > 0 -%}
+            <li{% if forloop.index == 2 %} class="pad"{% endif %}><i class="fas fa-times"></i> {{ item.con }}</li>
+        {%- endif -%}
+    </div>
+{%- endfor -%}  
+
+
+</div>
+<br />

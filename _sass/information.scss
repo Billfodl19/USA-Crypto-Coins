@@ -1,0 +1,67 @@
+  
+  
+  #information {
+    background-color: #008080;
+    color: white;
+    position: relative;
+  }
+  
+  #information .wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  
+  #information p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+  }
+  
+  #information p span {  
+    font-weight: 600;
+    color: #ffde7f;
+  }
+  
+  .fa-shopping-cart {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+  
+  .info__email {
+    display: none;
+  }
+  
+  
+  
+  @media screen and (min-width: 860px) { 
+  
+    .info__email {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .fa-envelope {
+      color: #025f5f;
+      font-size: 24px;
+      padding-right: 10px;
+    }
+  
+    .fa-shopping-cart {
+      position: relative;
+      top: unset;
+      right: unset;
+    }
+  
+    #information .wrapper { 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 90%;
+    }
+  
+  
+  }

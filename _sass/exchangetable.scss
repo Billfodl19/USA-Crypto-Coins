@@ -1,0 +1,166 @@
+.table-responsive {
+  overflow-x: auto;
+  min-height: 0.01%; // Workaround for IE9 bug (see https://github.com/twbs/bootstrap/issues/14837)
+
+  @media screen and (max-width: $screen-xs-max) {
+    width: 100%;
+    margin-bottom: ($line-height-computed * 0.75);
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid $table-border-color;
+
+    // Tighten up spacing
+    > .table {
+      margin-bottom: 0;
+
+      // Ensure the content doesn't wrap
+      > thead,
+      > tbody,
+      > tfoot {
+        > tr {
+          > th,
+          > td {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+
+    // Special overrides for the bordered tables
+    > .table-bordered {
+      border: 0;
+
+      // Nuke the appropriate borders so that the parent can handle them
+      > thead,
+      > tbody,
+      > tfoot {
+        > tr {
+          > th:first-child,
+          > td:first-child {
+            border-left: 0;
+          }
+          > th:last-child,
+          > td:last-child {
+            border-right: 0;
+          }
+        }
+      }
+
+      // Only nuke the last row's bottom-border in `tbody` and `tfoot` since
+      // chances are there will be only one `tr` in a `thead` and that would
+      // remove the border altogether.
+      > tbody,
+      > tfoot {
+        > tr:last-child {
+          > th,
+          > td {
+            border-bottom: 0;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.country-compare-table .main-table {
+	text-align: center;
+	margin: 15px auto;
+	border: 1px solid #eee;
+	padding: 0px;
+}
+
+.country-compare-table .main-header {
+	background-color: rgb(0, 100, 200);
+	color: white;
+	margin: 0px;
+	list-style: none;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px !important;
+}
+
+.country-compare-table {
+	font-weight: normal !important;
+}
+
+.country-compare-table img {
+	width: 79px;
+	height: auto;
+	border-radius: 5px;
+	display: inline !important;
+}
+
+.country-compare-table .list-item {
+	margin: 0px;
+	padding: 7px !important;
+	list-style: none;
+	background: white !important;
+	border: 1px solid #eee;
+}
+
+.country-compare-table .product-style {
+	text-align: left; 
+	margin: auto;
+}
+.country-compare-table .product-name {
+	color: rgb(0, 100, 200);
+	font-size: 20px;
+}
+
+.country-compare-table a.button {
+    background: #5ab85c;
+    color: #fff;
+    padding: 12px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: 4px solid #3e8040;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.country-compare-table a.button:after {
+    content: "\f178";
+    font-family: fontawesome;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+	.country-compare-table .icon-cover {
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+	}
+
+	.country-compare-table .button-cover {
+	margin-top: 25px !important;
+	margin-bottom: 25px !important;
+	}
+}
+
+.etoro-disclaimer {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 15px;
+    color: #939393;
+}
+
+/* Wallets */
+
+.colorguide-body .wallets-index .convertica-table-new-content h4 {
+
+    margin-top: 0 !important;
+
+}
+
+.colorguide-body .wallets-index .convertica-table-new-content img {
+
+    margin: 20px auto !important;
+
+}
+
+.colorguide-body .wallets-index .convertica-table-new-content .row {
+	padding: 0 10px !important;
+}
