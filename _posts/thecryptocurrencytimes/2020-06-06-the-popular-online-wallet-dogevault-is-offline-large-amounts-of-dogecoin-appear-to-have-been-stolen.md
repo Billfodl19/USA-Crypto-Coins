@@ -3,7 +3,7 @@ post_title: THE POPULAR ONLINE WALLET DOGEVAULT IS OFFLINE, LARGE AMOUNTS OF DOG
 seotitle: The popular online wallet Dogevault is offline, large amounts of Dogecoin appear to have been stolen | The Cryptocurrency Times
 description: The popular online wallet Dogevault is offline, large amounts of Dogecoin appear to have been stolen
 layout: post
-permalink: /thecryptocurrencytimes/the-popular-online-wallet-dogevault-is-offline-large-amounts-of-dogecoin-appear-to-have-been-stolen/
+permalink: /thecryptocurrencytimes/uncategorized/the-popular-online-wallet-dogevault-is-offline-large-amounts-of-dogecoin-appear-to-have-been-stolen/
 author: Colin Aulds
 updated: 6th June 2020
 tags:

@@ -3,7 +3,7 @@ post_title: SHARE COIN - A NEW CRYPTOCURRENCY THAT IS FREELY DISTRIBUTED
 seotitle: Share Coin - a new Cryptocurrency that is freely distributed | The Cryptocurrency Times
 description: Share Coin - a new Cryptocurrency that is freely distributed
 layout: post
-permalink: /thecryptocurrencytimes/share-coin-a-new-cryptocurrency-that-is-freely-distributed/
+permalink: /thecryptocurrencytimes/uncategorized/share-coin-a-new-cryptocurrency-that-is-freely-distributed/
 author: Colin Aulds
 updated: 6th June 2020
 tags:

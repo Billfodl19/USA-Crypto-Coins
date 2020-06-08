@@ -3,7 +3,7 @@ post_title: THE PAST AND FUTURE OF BITCOIN’S PRICE
 seotitle: The past and future of Bitcoin’s price | The Cryptocurrency Times
 description: The past and future of Bitcoin’s price
 layout: post
-permalink: /thecryptocurrencytimes/the-past-and-future-of-bitcoins-price/
+permalink: /thecryptocurrencytimes/uncategorized/the-past-and-future-of-bitcoins-price/
 author: Colin Aulds
 updated: 6th June 2020
 tags:

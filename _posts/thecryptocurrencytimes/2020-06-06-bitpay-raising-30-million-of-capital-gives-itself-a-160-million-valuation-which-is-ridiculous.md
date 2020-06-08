@@ -3,7 +3,7 @@ post_title: BITPAY RAISING $30 MILLION OF CAPITAL, GIVES ITSELF A $160 MILLION V
 seotitle: BitPay raising $30 million of capital, gives itself a $160 million valuation which is ridiculous | The Cryptocurrency Times
 description: BitPay raising $30 million of capital, gives itself a $160 million valuation which is ridiculous
 layout: post
-permalink: /thecryptocurrencytimes/bitpay-raising-30-million-of-capital-gives-itself-a-160-million-valuation-which-is-ridiculous/
+permalink: /thecryptocurrencytimes/uncategorized/bitpay-raising-30-million-of-capital-gives-itself-a-160-million-valuation-which-is-ridiculous/
 author: Colin Aulds
 updated: 6th June 2020
 tags:

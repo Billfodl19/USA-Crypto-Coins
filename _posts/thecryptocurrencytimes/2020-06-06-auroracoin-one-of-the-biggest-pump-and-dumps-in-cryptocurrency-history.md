@@ -3,14 +3,14 @@ post_title: AURORACOIN - ONE OF THE BIGGEST PUMP AND DUMPS IN CRYPTOCURRENCY HIS
 seotitle: Auroracoin - one of the biggest pump and dumps in Cryptocurrency history | The Cryptocurrency Times
 description: Auroracoin - one of the biggest pump and dumps in Cryptocurrency history
 layout: post
-permalink: /thecryptocurrencytimes/auroracoin-one-of-the-biggest-pump-and-dumps-in-cryptocurrency-history/
-author: Colin Aulds
+permalink: /thecryptocurrencytimes/uncategorized/auroracoin-one-of-the-biggest-pump-and-dumps-in-cryptocurrency-history/
+author: Bryan Aulds
 updated: 6th June 2020
 tags:
 pros_cons_table:
 blog_image:
 blog_image_alt:
-author_image:
+author_image: /images/bryan/png
 author_image_alt:
 ---
 

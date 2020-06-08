@@ -3,7 +3,7 @@ post_title: SHIBE COIN, A COMPLETE RIPOFF OF DOGE COIN, LIKELY A SCAM
 seotitle: Shibe Coin, a complete ripoff of Doge Coin, likely a scam | The Cryptocurrency Times
 description: Shibe Coin, a complete ripoff of Doge Coin, likely a scam
 layout: post
-permalink: /thecryptocurrencytimes/shibe-coin-a-complete-ripoff-of-doge-coin-likely-a-scam/
+permalink: /thecryptocurrencytimes/uncategorized/shibe-coin-a-complete-ripoff-of-doge-coin-likely-a-scam/
 author: Colin Aulds
 updated: 6th June 2020
 tags:
