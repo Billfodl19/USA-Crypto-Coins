@@ -1,5 +1,5 @@
 #  We need to force the redirect with the 301! instead of the 301 directive
 #  Otherwise, Netlify serves the the same page
 /thecryptocurrencytimes/uncategorized/auroracoin-one-of-the-biggest-pump-and-dumps-in-cryptocurrency-history/   https://privacypros.io/scams/auroracoin/   301!
-/thecryptocurrencytimes/uncategorized/the-popular-online-wallet-dogevault-is-offline-large-amounts-of-dogecoin-appear-to-have-been-stolen/   https://privacypros.io/scams/dogevault-hack/   !301
-/*   https://privacypros.io/blog   !301
+/thecryptocurrencytimes/uncategorized/the-popular-online-wallet-dogevault-is-offline-large-amounts-of-dogecoin-appear-to-have-been-stolen/   https://privacypros.io/scams/dogevault-hack/   301!
+/*   https://privacypros.io/blog   301!
